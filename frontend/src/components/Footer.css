@@ -1,0 +1,44 @@
+/* Variáveis CSS globais */
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #7c3aed;
+  --accent-color: #f59e0b;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --bg-light: #f9fafb;
+  --bg-white: #ffffff;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --border-color: #e5e7eb;
+}
+
+#footer {
+  background-color: var(--bg-white);
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  margin-top: auto;
+  padding: 2rem 1rem;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#footer p {
+  color: var(--text-light);
+  font-size: 0.875rem;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  #footer {
+    min-height: 150px;
+    padding: 1.5rem 1rem;
+  }
+  
+  #footer p {
+    font-size: 0.75rem;
+  }
+}

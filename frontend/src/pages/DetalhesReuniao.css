@@ -1,0 +1,87 @@
+.detalhes-reuniao-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 32px 28px 28px 28px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.detalhes-reuniao-title {
+  text-align: center;
+  color: #2a4d69;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.detalhes-reuniao-info {
+  background: #f4f8fb;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 24px;
+  font-size: 1.1rem;
+}
+
+.detalhes-label {
+  font-weight: 500;
+  color: #1b2a38;
+  margin-right: 6px;
+}
+
+.detalhes-reuniao-section {
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 18px 20px;
+  box-shadow: 0 1px 4px rgba(42,77,105,0.04);
+}
+
+.detalhes-section-title {
+  color: #3867d6;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.detalhes-reuniao-section p {
+  margin: 8px 0;
+  color: #2a4d69;
+}
+
+.modal-reagendar-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-reagendar {
+  background: #fff;
+  padding: 28px 24px 18px 24px;
+  border-radius: 8px;
+  min-width: 320px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-reagendar label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.modal-reagendar input[type="date"],
+.modal-reagendar select {
+  margin-top: 4px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  font-size: 1rem;
+} 
