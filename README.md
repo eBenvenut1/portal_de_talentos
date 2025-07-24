@@ -24,7 +24,7 @@ Portal de Talentos é uma plataforma para conectar candidatos talentosos com emp
 ##  Como clonar e rodar o projeto
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/eBenvenut1/portal_de_talentos.git
 cd SEU_REPOSITORIO
 ```
 
